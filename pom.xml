@@ -33,6 +33,7 @@
 
         <spring.version>4.0.6.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
+        <spring.amqp.version>1.0.0.RELEASE</spring.amqp.version>
 
         <!-- TODO check these for updates -->
         <javax.validation.version>1.0.0.GA</javax.validation.version>
@@ -75,6 +76,12 @@
         <module>companies</module>
         <module>web-ui</module>
         <module>external-listeners</module>
+        <module>shawns-module</module>
+        <module>spring-profiles</module>
+        <module>spring-condition</module>
+        <module>spring-scope</module>
+        <module>spring-externals</module>
+        <module>spring-aspect</module>
     </modules>
 
     <scm>
